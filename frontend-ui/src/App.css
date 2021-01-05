@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  /* background-image: linear-gradient(to right, #00c6ff 0%, #0072ff 100%); */
+  /* background: green; */
+  height: 100vh;
+}
+
+footer {
+  background: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: black;
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  left: 0;
+  right: 0;
+}
+
+/* footer:hover {
+  color:;
+  background: beige;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50px;
+  background: black;
+  color: white;
+}
+
+.nvlink {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.nvlink li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 12vh;
+  background: black;
+  color: white;
+  list-style: none;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  margin-top: 40px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
